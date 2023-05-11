@@ -1,0 +1,8 @@
+@charset "UTF-8";
+  
+div.親1 {background: silver; padding: 10px 0; }
+/*元　width: 99%; height: 325px; position: relative; */	
+
+div.text1 {box-sizing: border-box;  width: 90%; margin: 5%; padding: 10px; border: solid 5px black; background:orange; }
+/*元　width: 85%; height: 325px; margin: 0 auto;　*/	
+/*width + 左右marin = 100%になっていれば、paddingとborderがどんな値であろうと親要素にきれいに収まります*/	
