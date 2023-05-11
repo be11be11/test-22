@@ -1,8 +1,12 @@
 @charset "UTF-8";
   
-div.親1 {background: silver; padding: 10px 0; }
+div.祖1 {background: silver; padding: 10px 0; }
 /*元　width: 99%; height: 325px; position: relative; */	
 
+div.親1 {box-sizing: border-box;  width: 90%; margin: 5%; padding: 10px; border: solid 5px aqua; background:pink; }
+div.親2 {box-sizing: border-box;  width: 90%; margin: 5%; padding: 10px; border: solid 5px aqua; background:pink; }
+
 div.text1 {box-sizing: border-box;  width: 90%; margin: 5%; padding: 10px; border: solid 5px black; background:orange; }
+div.text2 {box-sizing: content-box;  width: 45%; margin-left : 2px; padding: 10px; border: solid 5px black; background:orange; }
 /*元　width: 85%; height: 325px; margin: 0 auto;　*/	
 /*width + 左右marin = 100%になっていれば、paddingとborderがどんな値であろうと親要素にきれいに収まります*/	
